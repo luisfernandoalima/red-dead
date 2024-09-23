@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "red-dead";
+  src: url("../../assets/fonts/chinese rocks rg.otf");
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  padding: 10px 15px;
+  height: min-content;
+  backdrop-filter: blur(10px);
+}
+header img {
+  width: 130px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+}
+nav ul a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body {
+  background-color: black;
+  height: 1000px;
+}
+
+/*# sourceMappingURL=main.css.map */

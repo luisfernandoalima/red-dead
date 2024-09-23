@@ -1,0 +1,14 @@
+// Fontes
+@font-face {
+    font-family: "red-dead";
+    src: url("../../assets/fonts/chinese rocks rg.otf");
+}
+
+// Mixin
+@mixin flex($aling, $justify){
+    display: flex;
+    align-items: $aling;
+    justify-content: $justify;
+}
+
+// Cores
