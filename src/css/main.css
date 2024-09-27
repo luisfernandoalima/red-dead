@@ -40,4 +40,8 @@ body {
   height: 1000px;
 }
 
+main img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
