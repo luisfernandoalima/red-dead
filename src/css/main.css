@@ -16,6 +16,7 @@ header {
   padding: 10px 15px;
   height: min-content;
   backdrop-filter: blur(10px);
+  z-index: 1;
 }
 header img {
   width: 130px;

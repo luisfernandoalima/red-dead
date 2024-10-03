@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "red-dead";
+  src: url("../../assets/fonts/chinese rocks rg.otf");
+}
+#section-sobre {
+  padding: 20px 15px 0px 15px;
+  background: #0D0D0D url("../../assets/images/background003.jpg") center center no-repeat fixed;
+  background-size: cover;
+}
+#section-sobre h1 {
+  text-align: center;
+}
+#section-sobre h1,
+#section-sobre h2 {
+  color: #FFFFFF;
+  font-family: "red-dead";
+}
+#section-sobre .text {
+  padding: 20px 15px;
+  background-color: hsla(0, 0%, 0%, 0.514);
+  color: #FFFFFF;
+  text-align: justify;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+#section-trailer {
+  padding: 50px 10px;
+}
+#section-trailer h2 {
+  color: #FFFFFF;
+  font-family: "red-dead";
+  text-align: center;
+}
+#section-trailer .trailer {
+  padding-bottom: 59%;
+  position: relative;
+}
+#section-trailer .trailer iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+/*# sourceMappingURL=inicio.css.map */

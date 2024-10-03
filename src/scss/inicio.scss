@@ -1,0 +1,49 @@
+@import "./variaveis.scss";
+
+#section-sobre {
+    padding: 20px 15px 0px 15px;
+    background: $preto url("../../assets/images/background003.jpg") center center no-repeat fixed;
+    background-size: cover;
+
+    h1 {
+        text-align: center;
+    }
+
+    h1,
+    h2 {
+        color: $branco;
+        font-family: 'red-dead';
+    }
+
+    .text {
+        padding: 20px 15px;
+        background-color: hsla(0, 0%, 0%, 0.514);
+        color: $branco;
+        text-align: justify;
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+    }
+}
+
+#section-trailer {
+    padding: 50px 10px;
+
+    h2 {
+        color: $branco;
+        font-family: 'red-dead';
+        text-align: center;
+    }
+
+    .trailer {
+        padding-bottom: 59%;
+        position: relative;
+
+        iframe {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+        }
+    }
+}
