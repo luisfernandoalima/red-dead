@@ -47,3 +47,55 @@
         }
     }
 }
+
+#section-reviews{
+    padding: 20px 15px 0px 15px;
+    background: $preto url("../../assets/images/background005.jpg") center center no-repeat fixed;
+    background-size: cover;
+
+
+    h2{
+        color: white;
+        background-color: hsla(0, 0%, 0%, 0.514);
+        padding: 10px;
+        margin: 10px auto;
+        width: min-content;
+        font-family: 'red-dead';
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .review-card{
+        border: 5px solid $vermelho;
+        border-radius: 20px;
+        padding: 20px;
+        background-color: $preto;
+        
+        h3{
+            text-align: right;
+            color: $vermelho;
+        }
+
+        h4{
+            color: white;
+            font-family: 'red-dead';
+            margin-bottom: 0px;
+        }
+    }
+}
+
+@media (max-width: 700px){
+    .review-card{
+        @include flex(end, space-evenly);
+        flex-direction: row-reverse;
+        margin-bottom: 20px;
+        
+        h4{
+            font-size: 3em;
+        }
+    }
+}

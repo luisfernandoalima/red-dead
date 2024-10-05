@@ -44,4 +44,51 @@
   height: 90%;
 }
 
+#section-reviews {
+  padding: 20px 15px 0px 15px;
+  background: #0D0D0D url("../../assets/images/background005.jpg") center center no-repeat fixed;
+  background-size: cover;
+}
+#section-reviews h2 {
+  color: white;
+  background-color: hsla(0, 0%, 0%, 0.514);
+  padding: 10px;
+  margin: 10px auto;
+  width: min-content;
+  font-family: "red-dead";
+  text-align: center;
+  border-radius: 20px;
+}
+#section-reviews a {
+  text-decoration: none;
+}
+#section-reviews .review-card {
+  border: 5px solid #C81E21;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #0D0D0D;
+}
+#section-reviews .review-card h3 {
+  text-align: right;
+  color: #C81E21;
+}
+#section-reviews .review-card h4 {
+  color: white;
+  font-family: "red-dead";
+  margin-bottom: 0px;
+}
+
+@media (max-width: 700px) {
+  .review-card {
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+  }
+  .review-card h4 {
+    font-size: 3em;
+  }
+}
+
 /*# sourceMappingURL=inicio.css.map */
