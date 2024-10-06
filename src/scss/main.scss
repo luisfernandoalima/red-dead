@@ -32,12 +32,28 @@ nav{
     }
 }
 body{
-    background-color: black;
-    height: 20000px;
+    background-color: $preto;
 }
 
 main{
     img{
         width: 100%;
+    }
+}
+
+footer{
+    color: $branco;
+    background-color: $vermelho;
+    padding: 10px 15px;
+
+    p{
+        margin-bottom: 0px;
+    }
+
+    .links-area{
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
     }
 }

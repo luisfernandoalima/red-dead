@@ -4,7 +4,7 @@
 }
 #section-sobre {
   padding: 20px 15px 0px 15px;
-  background: #0D0D0D url("../../assets/images/background003.jpg") center center no-repeat fixed;
+  background: #0D0D0D url("../../assets/images/background003.jpg") center bottom no-repeat fixed;
   background-size: cover;
 }
 #section-sobre h1 {
@@ -68,6 +68,10 @@
   border-radius: 20px;
   padding: 20px;
   margin-bottom: 20px;
+  transition: 0.3s;
+}
+#section-reviews .review-card:hover {
+  transform: scale(1.1);
 }
 #section-reviews .review-card h3 {
   text-align: center;

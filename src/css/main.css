@@ -37,12 +37,24 @@ nav ul a {
 }
 
 body {
-  background-color: black;
-  height: 1000px;
+  background-color: #0D0D0D;
 }
 
 main img {
   width: 100%;
+}
+
+footer {
+  color: #FFFFFF;
+  background-color: #C81E21;
+  padding: 10px 15px;
+}
+footer p {
+  margin-bottom: 0px;
+}
+footer .links-area a {
+  color: #fff;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */

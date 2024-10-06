@@ -2,7 +2,7 @@
 
 #section-sobre {
     padding: 20px 15px 0px 15px;
-    background: $preto url("../../assets/images/background003.jpg") center center no-repeat fixed;
+    background: $preto url("../../assets/images/background003.jpg") center bottom no-repeat fixed;
     background-size: cover;
 
     h1 {
@@ -75,7 +75,12 @@
         border-radius: 20px;
         padding: 20px;
         margin-bottom: 20px;
-        
+        transition: .3s;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+
         h3{
             text-align: center;
             color: $vermelho;
