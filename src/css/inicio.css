@@ -45,7 +45,7 @@
 }
 
 #section-reviews {
-  padding: 20px 15px 0px 15px;
+  padding: 20px 15px 20px 15px;
   background: #0D0D0D url("../../assets/images/background005.jpg") center center no-repeat fixed;
   background-size: cover;
 }
@@ -63,18 +63,21 @@
   text-decoration: none;
 }
 #section-reviews .review-card {
+  background-color: #0D0D0D;
   border: 5px solid #C81E21;
   border-radius: 20px;
   padding: 20px;
-  background-color: #0D0D0D;
+  margin-bottom: 20px;
 }
 #section-reviews .review-card h3 {
-  text-align: right;
+  text-align: center;
   color: #C81E21;
 }
 #section-reviews .review-card h4 {
   color: white;
   font-family: "red-dead";
+  font-size: 4em;
+  text-align: center;
   margin-bottom: 0px;
 }
 
